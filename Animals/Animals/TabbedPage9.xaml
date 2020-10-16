@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Animals.TabbedPage9"
+             Title="Лоси">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#AEC668">
+
+            <Label Text="О лосях"
+         VerticalOptions="Center"
+         HorizontalOptions="Center"
+         FontSize="Large"
+         FontAttributes="Bold"
+         TextColor="#196C12"
+         BackgroundColor="#8A7330"/>
+            <Label Text="Ло́си — род парнокопытных млекопитающих, самые крупные представители семейства оленевых. Включает 2 вида: европейский лось и американский лось, которые имеют разное число хромосом (68 и 70, соответственно). Так как различие в хромосомах не препятствует гибридизации этих видов лосей, и оба вида в Восточной Сибири соседствуют на одной и той же территории, то в последние годы многие учёные считают их подвидами одного вида."
+                   BackgroundColor="#EDEBAA"
+                   FontSize="Medium"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Animals.TabbedPage12"
+             Title="Волки">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="DarkBlue">
+
+            <Label Text="О волках"
+         VerticalOptions="Center"
+         HorizontalOptions="Center"
+         FontSize="Large"
+         FontAttributes="Bold"
+         TextColor="Blue"
+         BackgroundColor="Yellow"/>
+            <Label Text="Волк, или се́рый волк, или обыкнове́нный волк, — вид хищных млекопитающих из семейства псовых. Наряду с койотом, обыкновенным шакалом и ещё несколькими видами составляет род волков. Кроме того, как показывают результаты изучения последовательности ДНК и дрейфа генов, является прямым предком домашней собаки, которая обычно рассматривается как подвид волка."
+                   BackgroundColor="LightBlue"
+                   FontSize="Medium"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

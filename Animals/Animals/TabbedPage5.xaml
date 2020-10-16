@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Animals.TabbedPage5"
+             Title="Совообразные">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#B1916B">
+
+            <Label Text="О совах"
+         VerticalOptions="Center"
+         HorizontalOptions="Center"
+         FontSize="Large"
+         FontAttributes="Bold"
+         TextColor="#573325"
+         BackgroundColor="#D2D5A3"/>
+            <Label Text="Совообра́зные — отряд хищных птиц, включающий более 200 крупных и средней величины видов, в основном ночных птиц, распространённых во всех странах мира. В отряде два современных семейства: совиные, или настоящие совы, и сипуховые."
+                   BackgroundColor="#DABA82"
+                   FontSize="Medium"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

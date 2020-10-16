@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Animals.TabbedPage2"
+             Title="Лисицы">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F3CE82">
+
+            <Label Text="О лисицах"
+         VerticalOptions="Center"
+         HorizontalOptions="Center"
+         FontSize="Large"
+         FontAttributes="Bold"
+         TextColor="#F06323"
+         BackgroundColor="#E49457"/>
+            <Label Text="Лиси́ца — общее название нескольких видов млекопитающих семейства псовые. Лишь 10 видов этой группы относят к роду собственно лисиц. Наиболее известный и распространённый представитель — обыкновенная лисица. Лисицы встречаются в фольклоре многих народов по всему миру."
+                   BackgroundColor="#F3A971"
+                   FontSize="Medium"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

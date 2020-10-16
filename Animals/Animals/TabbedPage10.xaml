@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Animals.TabbedPage10"
+             Title="Бобры">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#9D721D">
+
+            <Label Text="О бобрах"
+         VerticalOptions="Center"
+         HorizontalOptions="Center"
+         FontSize="Large"
+         FontAttributes="Bold"
+         TextColor="#FFFFFF"
+         BackgroundColor="#674724"/>
+            <Label Text="Бобры́ — род млекопитающих из отряда грызунов. Единственный современный представитель семейства бобровых. Делится на два вида — обыкновенный бобр, обитающий в зоне от Атлантического побережья до Прибайкалья и Монголии, и канадский бобр — в Северной Америке. Некоторые зоологи рассматривают канадского бобра как подвид обыкновенного бобра, однако этой точке зрения противоречит разное количество хромосом (48 у обыкновенного и 40 у канадского). Современная систематика различает восемь подвидов обыкновенного бобра."
+                   BackgroundColor="#8C7150"
+                   FontSize="Medium"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

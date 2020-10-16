@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Animals.TabbedPage7"
+             Title="Лошади">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#9FC579">
+
+            <Label Text="О лошадях"
+         VerticalOptions="Center"
+         HorizontalOptions="Center"
+         FontSize="Large"
+         FontAttributes="Bold"
+         TextColor="#166B23"
+         BackgroundColor="#DA75B1"/>
+            <Label Text="Ло́шади — единственный современный род семейства лошадиных отряда непарнокопытных."
+                   BackgroundColor="#E18AD8"
+                   FontSize="Medium"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Animals.TabbedPage3"
+             Title="Медеди">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#937254">
+
+            <Label Text="О медведях"
+         VerticalOptions="Center"
+         HorizontalOptions="Center"
+         FontSize="Large"
+         FontAttributes="Bold"
+         TextColor="#391F0C"
+         BackgroundColor="#B18564"/>
+            <Label Text="Медведи — род млекопитающих отряда хищных.
+
+Согласно палеонтологическим сведениям, род медведей появился 5—6 миллионов лет назад. Первым его представителем в настоящее время считают медведя Ursus minimus — относительно небольшое животное, чьи ископаемые остатки найдены на территории Франции. Все современные четыре вида рода, а также ряд вымерших (таких, например, как пещерный медведь) происходят от этрусского медведя, жившего 1—2 миллиона лет назад."
+                   BackgroundColor="#E3C893"
+                   FontSize="Medium"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

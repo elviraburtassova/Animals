@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Animals.TabbedPage4"
+             Title="Зайцы">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#EDC3D3">
+
+            <Label Text="О зайцах"
+         VerticalOptions="Center"
+         HorizontalOptions="Center"
+         FontSize="Large"
+         FontAttributes="Bold"
+         TextColor="#2386C1"
+         BackgroundColor="#F092C9"/>
+            <Label Text="Зайцы — род из семейства зайцевых. Распространены везде, кроме Австралии и Антарктиды, всего около 30 видов."
+                   BackgroundColor="#C5DAE1"
+                   FontSize="Medium"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
