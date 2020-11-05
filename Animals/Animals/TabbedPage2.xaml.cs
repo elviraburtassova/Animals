@@ -12,6 +12,10 @@ namespace Animals
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class TabbedPage2 : ContentPage 
 	{
+        public TabbedPage2()
+        {
+            InitializeComponent();
+        }
         private async void Description_Clicked(object sender, EventArgs e)
         {
             await DisplayAlert("Описание лисиц:", "Длина тела 60—90 см, хвоста — 40—60 см, масса — 6—10 кг.", "Закрыть");
