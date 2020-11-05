@@ -17,7 +17,16 @@
             <Label Text="Ло́шади — единственный современный род семейства лошадиных отряда непарнокопытных."
                    BackgroundColor="#E18AD8"
                    FontSize="Medium"/>
-
+            <Button x:Name="Description"
+                    Clicked="Description_Clicked"
+                 Text="Описание:"
+                BackgroundColor="#1E8026"
+                    TextColor="#E46EE6"
+                    Font="Large"/>
+            <Image Source="og.jpg"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+                
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

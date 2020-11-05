@@ -133,4 +133,40 @@
       <Name>Animals</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\v.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\l.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\m.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\og.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ls.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\br.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gr.jpg" />
+  </ItemGroup>
 </Project>

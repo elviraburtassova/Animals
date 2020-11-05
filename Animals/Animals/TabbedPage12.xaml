@@ -2,22 +2,29 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Animals.TabbedPage12"
-             Title="Волки">
+             Title="Еноты">
 
     <ContentPage.Content>
-        <StackLayout BackgroundColor="DarkBlue">
+        <StackLayout BackgroundColor="#5B5B61">
 
-            <Label Text="О волках"
+            <Label Text="О енотах"
          VerticalOptions="Center"
          HorizontalOptions="Center"
          FontSize="Large"
          FontAttributes="Bold"
-         TextColor="Blue"
-         BackgroundColor="Yellow"/>
+         TextColor="#000000"
+         BackgroundColor="#EEEEEE"/>
             <Label Text="Волк, или се́рый волк, или обыкнове́нный волк, — вид хищных млекопитающих из семейства псовых. Наряду с койотом, обыкновенным шакалом и ещё несколькими видами составляет род волков. Кроме того, как показывают результаты изучения последовательности ДНК и дрейфа генов, является прямым предком домашней собаки, которая обычно рассматривается как подвид волка."
-                   BackgroundColor="LightBlue"
+                   BackgroundColor="#9E9E9E"
                    FontSize="Medium"/>
-
+            <Button x:Name="Description"
+                    Clicked="Description_Clicked"
+                 Text="Описание:"
+                    BackgroundColor="#FFFFFF"
+                    TextColor="#080808"/>
+            <Image Source="en.jpg"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

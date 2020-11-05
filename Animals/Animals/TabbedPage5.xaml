@@ -17,7 +17,14 @@
             <Label Text="Совообра́зные — отряд хищных птиц, включающий более 200 крупных и средней величины видов, в основном ночных птиц, распространённых во всех странах мира. В отряде два современных семейства: совиные, или настоящие совы, и сипуховые."
                    BackgroundColor="#DABA82"
                    FontSize="Medium"/>
-
+            <Button x:Name="Description"
+                    Clicked="Description_Clicked"
+                 Text="Описание:"
+                BackgroundColor="#CDCD99"
+                    TextColor="#573325"/>
+            <Image Source="s.jpg"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -18,6 +18,16 @@
                    BackgroundColor="#C5DAE1"
                    FontSize="Medium"/>
 
+            <Button x:Name="Description"
+                    Clicked="Description_Clicked"
+                 Text="Описание:"
+                    BackgroundColor="#2482CF"
+                    TextColor="#D42F7D"/>
+            <Image Source="z.jpg"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

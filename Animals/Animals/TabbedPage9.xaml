@@ -17,7 +17,15 @@
             <Label Text="Ло́си — род парнокопытных млекопитающих, самые крупные представители семейства оленевых. Включает 2 вида: европейский лось и американский лось, которые имеют разное число хромосом (68 и 70, соответственно). Так как различие в хромосомах не препятствует гибридизации этих видов лосей, и оба вида в Восточной Сибири соседствуют на одной и той же территории, то в последние годы многие учёные считают их подвидами одного вида."
                    BackgroundColor="#EDEBAA"
                    FontSize="Medium"/>
-
+            <Button x:Name="Description"
+                    Clicked="Description_Clicked"
+                 Text="Описание:"
+                BackgroundColor="#1E8026"
+                    TextColor="#000000"
+                    FontSize="Large"/>
+            <Image Source="ls.jpg"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -2,22 +2,29 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Animals.TabbedPage11"
-             Title="Волки">
+             Title="Горностаи">
 
     <ContentPage.Content>
-        <StackLayout BackgroundColor="DarkBlue">
+        <StackLayout BackgroundColor="#D48998">
 
-            <Label Text="О волках"
+            <Label Text="О горностаях"
          VerticalOptions="Center"
          HorizontalOptions="Center"
          FontSize="Large"
          FontAttributes="Bold"
-         TextColor="Blue"
-         BackgroundColor="Yellow"/>
-            <Label Text="Волк, или се́рый волк, или обыкнове́нный волк, — вид хищных млекопитающих из семейства псовых. Наряду с койотом, обыкновенным шакалом и ещё несколькими видами составляет род волков. Кроме того, как показывают результаты изучения последовательности ДНК и дрейфа генов, является прямым предком домашней собаки, которая обычно рассматривается как подвид волка."
-                   BackgroundColor="LightBlue"
+         TextColor="#9B4530"
+         BackgroundColor="White"/>
+            <Label Text="Горноста́й — хищное млекопитающее семейства куньих."
+                   BackgroundColor="#D44567"
                    FontSize="Medium"/>
-
+            <Button x:Name="Description"
+                    Clicked="Description_Clicked"
+                 Text="Описание:"
+                    BackgroundColor="#FFFFFF"
+                    TextColor="#750707"/>
+            <Image Source="gr.jpg"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

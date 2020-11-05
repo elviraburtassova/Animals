@@ -17,6 +17,13 @@
             <Label Text="Лиси́ца — общее название нескольких видов млекопитающих семейства псовые. Лишь 10 видов этой группы относят к роду собственно лисиц. Наиболее известный и распространённый представитель — обыкновенная лисица. Лисицы встречаются в фольклоре многих народов по всему миру."
                    BackgroundColor="#F3A971"
                    FontSize="Medium"/>
+            <Button x:Name="Description"
+                    Clicked="Description_Clicked"
+                 Text="Описание:"
+                    BackgroundColor="#E36E38"/>
+            <Image Source="l.jpg"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
 
         </StackLayout>
     </ContentPage.Content>

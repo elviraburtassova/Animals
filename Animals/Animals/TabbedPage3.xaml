@@ -20,6 +20,14 @@
                    BackgroundColor="#E3C893"
                    FontSize="Medium"/>
 
+            <Button x:Name="Description"
+                    Clicked="Description_Clicked"
+                 Text="Описание:"
+                    BackgroundColor="#6B412A"/>
+            <Image Source="m.jpg"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
